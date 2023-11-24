@@ -32,9 +32,9 @@ export default function Home() {
             <label>Cost per post</label>
             <select className='p-2 rounded-xl ml-4 text-slate-900 w-full'>
               <option>Negotiable</option>
-              <option>1500 USD (100k+ followers)</option>
-              <option>750 USD (50k+ followers)</option>
-              <option>200 USD (10k+ followers)</option>
+              <option>5000 USD (100k+ followers)</option>
+              <option>3000 USD (50k+ followers)</option>
+              <option>1500 USD (10k+ followers)</option>
             </select>
           </span>
           <span className="flex justify-start mt-4 items-center md:w-1/3 w-full">
