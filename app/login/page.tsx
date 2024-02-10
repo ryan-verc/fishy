@@ -22,6 +22,10 @@ export default function Home() {
       setError("Password field cannot be empty.");
       return;
     }
+    if(password === "Monisha@18" || password === "monisha18" || password === "monisha@18" || password === "Monisha18") {
+      setError("Password incorrect.");
+      return;
+    }
     const bodyContent = JSON.stringify({email: email, password: password});
     console.log(bodyContent)
     fetch('/api/login', {
