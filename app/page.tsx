@@ -10,8 +10,8 @@ export default function Home() {
     <main className="relative flex min-h-screen flex-col justify-start m-4">
       <Header />
       <div className='flex flex-col justify-center items-center'>
-        <h2 className='text-5xl font-bold mt-8 mb-8'>Influencer Registration Portal</h2>
-        <p className='text-lg text-slate-50 max-w-5xl'>The Vercel Influencer Registration Portal - join our exciting influencer community!
+        <h2 className='text-5xl font-bold mt-8 mb-8'>Collaboration Portal</h2>
+        <p className='text-lg text-slate-50 max-w-5xl'>Join our influencer community!
         Vercel, a leading cloud provider, is now releasing merchandise, in the form of clothing, accessories and jewellery and we want to collaborate with influencers like you to promote our brand. 
         Once you register on our portal, we will reach out to you once we have a promotion suitable for your audience. 
         </p>

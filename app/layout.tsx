@@ -3,9 +3,8 @@ import { Inter } from 'next/font/google'
 
 export const metadata = {
   metadataBase: new URL('https://influencer-registration.vercel.app'),
-  title: 'Influencer Registration',
-  description:
-    'Portal for influencers to register to take part in collabs and promotions with Vercel',
+  title: 'Collaborate with us',
+  description: 'Registration portal to collaborate with us',
 }
 
 const inter = Inter({
