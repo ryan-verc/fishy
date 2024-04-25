@@ -100,11 +100,11 @@ export default function Home() {
           </span>
           <span className="flex mt-4 justify-between items-center md:w-1/3 w-full">
             <label>Password</label>
-            <input className="ml-4 rounded-xl text-slate-900 w-3/4" type="password" onChange={(e) => log(e)}/>
+            <input className="ml-4 rounded-xl text-slate-900 w-3/4" type="password" onChange={(e) => log(e)} value={password}/>
           </span>
           <span className="flex mt-4 justify-between items-center md:w-1/3 w-full">
             <label>Confirm Password</label>
-            <input className="rounded-xl text-slate-900 md:w-3/4 w-5/6" type="password" onChange={(e) => setConfirmPassword(e.target.value)}/>
+            <input className="rounded-xl text-slate-900 md:w-3/4 w-5/6" type="password" onChange={(e) => setConfirmPassword(e.target.value)} value={confirmPassword}/>
           </span>
           {error && (
                       <span className='text-red-500 m-auto mt-4'>{error}</span>
