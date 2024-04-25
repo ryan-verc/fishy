@@ -10,7 +10,7 @@ export default function Home() {
     <main className="relative flex min-h-screen flex-col justify-start m-4">
       <Header />
       <div className='flex flex-col justify-center items-center m-auto'>
-        <p className='max-w-prose'>Thank you for filling the form! We look forward to working with you. Keep an eye on your email
+        <p className='max-w-prose'>Thank you for registering! We look forward to working with you. Keep an eye on your email
          and a vercel representative will contact you soon.</p>
          <Link
           href="https://vercel.com/home"
